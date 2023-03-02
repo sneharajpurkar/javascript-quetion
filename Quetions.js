@@ -160,14 +160,32 @@
 
 // array.includes(23)
 
-var array = [1, 2, 443, 454, 232, 546, 23, 567, 676, 2342, 565, 4, 2, 6]
-var number = 6;
+// var array = [1, 2, 443, 454, 232, 546, 23, 567, 676, 2342, 565, 4, 2, 6]
+// var number = 6;
 
 // if(array.includes(number)){
 //     console.log("true")
 // }else{
 //     console.log(false)
 // }
+
+// var flag = flag;
+// for (var i = 0; i < array.length; i++) {
+//     if (array[i] === number) {
+//         flag = true;
+//     }
+// }
+// if (flag === true) {
+//     console.log("true")
+// } else {
+//     console.log(false)
+// }
+
+// Q.12. find out number 689 from given array
+// then print only "Got it" and if not found the return "Not Found!"
+
+var array = [2, 4, 6, 23, 56, 3224, 454, 23, 54, 56, 232, 689, 233];
+var number = 689;
 
 var flag = flag;
 for (var i = 0; i < array.length; i++) {
@@ -176,7 +194,7 @@ for (var i = 0; i < array.length; i++) {
     }
 }
 if (flag === true) {
-    console.log("true")
+    console.log("Got it")
 } else {
-    console.log(false)
+    console.log("Not Found!")
 }
