@@ -140,7 +140,7 @@
 //     }
 // }
 
-// Q. find 3 numbers which addition is Target
+// Q10. find 3 numbers which addition is Target
 // [2,4,6,8,9,10,13,78,12,34,23]
 // target = 35
 
@@ -155,3 +155,28 @@
 //         }
 //     }
 // }
+
+// Q11. find given number is present in given array or not, if found returns true else false;
+
+// array.includes(23)
+
+var array = [1, 2, 443, 454, 232, 546, 23, 567, 676, 2342, 565, 4, 2, 6]
+var number = 6;
+
+// if(array.includes(number)){
+//     console.log("true")
+// }else{
+//     console.log(false)
+// }
+
+var flag = flag;
+for (var i = 0; i < array.length; i++) {
+    if (array[i] === number) {
+        flag = true;
+    }
+}
+if (flag === true) {
+    console.log("true")
+} else {
+    console.log(false)
+}
