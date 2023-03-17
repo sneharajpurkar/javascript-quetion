@@ -184,17 +184,28 @@
 // Q.12. find out number 689 from given array
 // then print only "Got it" and if not found the return "Not Found!"
 
-var array = [2, 4, 6, 23, 56, 3224, 454, 23, 54, 56, 232, 689, 233];
-var number = 689;
+// var array = [2, 4, 6, 23, 56, 3224, 454, 23, 54, 56, 232, 689, 233];
+// var number = 689;
 
-var flag = flag;
-for (var i = 0; i < array.length; i++) {
-    if (array[i] === number) {
-        flag = true;
-    }
-}
-if (flag === true) {
-    console.log("Got it")
-} else {
-    console.log("Not Found!")
-}
+// var flag = flag;
+// for (var i = 0; i < array.length; i++) {
+//     if (array[i] === number) {
+//         flag = true;
+//     }
+// }
+// if (flag === true) {
+//     console.log("Got it")
+// } else {
+//     console.log("Not Found!")
+// }
+
+
+//Q.13. given an array make a object with key of that specific index with value;
+
+// var array = [9,8,7,6,5,4,3,2,1,0]
+// var result = {};
+
+// for(var i=0; i<array.length; i++){
+//     result[i] = array[i].toString();
+// }
+// console.log(result);
