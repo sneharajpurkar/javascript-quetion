@@ -169,7 +169,7 @@
 //     console.log(false)
 // }
 
-// var flag = flag;
+// var flag = false;
 // for (var i = 0; i < array.length; i++) {
 //     if (array[i] === number) {
 //         flag = true;
@@ -178,11 +178,11 @@
 // if (flag === true) {
 //     console.log("true")
 // } else {
-//     console.log(false)
+//     console.log("false")
 // }
 
 // Q.12. find out number 689 from given array
-// then print only "Got it" and if not found the return "Not Found!"
+// then print only "Got it" and if not found then return "Not Found!"
 
 // var array = [2, 4, 6, 23, 56, 3224, 454, 23, 54, 56, 232, 689, 233];
 // var number = 689;
