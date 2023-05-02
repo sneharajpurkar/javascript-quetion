@@ -200,7 +200,7 @@
 // }
 
 
-//Q.13. given an array make a object with key of that specific index with value;
+// Q.13. given an array make a object with key of that specific index with value;
 
 // var array = [9,8,7,6,5,4,3,2,1,0]
 // var result = {};
@@ -209,3 +209,98 @@
 //     result[i] = array[i].toString();
 // }
 // console.log(result);
+
+
+// nums = [2,7,11,15], target = 9
+
+// var twoSum = function(nums, target){
+//     var array = []
+//     for(var i=0; i<nums.length; i++){
+//         for(var j=i+1; j<nums.length; j++){
+//             if(nums[i] + nums[j] === target){
+//                 array.push(i,j);
+//             }
+//         }
+//     }
+//     return array;
+// };
+
+
+// Q.remove duplicates
+
+// var array = [0,0,1,1,1,1,2,3,3];
+// var unique = []
+// var duplicate = []
+
+// for(var i=0; i<array.length; i++){
+//     if(array[i] == array[i+1]){
+//         duplicate.push(array[i]);
+//     }
+//     else{
+//         unique.push(array[i]);
+//     }
+// }
+// console.log(unique);
+
+//constraints means limits of program
+
+// Q.remove element
+
+// var num = [1,2,3,4,5,5,6,7,8,9]
+// var target = 5
+// for( var i = 0; i < num.length;){ 
+//     if ( num[i] === target) { 
+//         num.splice(i,1); 
+//     }
+//     else{
+//         i++
+//     }
+// }
+// console.log(num);
+
+//Q.. Given a positive integer n, find the sum of all integers in the range [1, n] inclusive that are divisible by 3, 5, or 7.
+
+// var num = 7;
+// var sum = 0;
+// for(var i=1; i<=num; i++){
+//     if(i%3==0 || i%5==0 || i%7==0){
+//         sum+=i //sum = sum + 1
+//     }
+// }
+// console.log(sum);
+
+// var num = 11;
+// var max=0;
+// for(var i=1; i<=num; i++){
+//     if(i%2==1){
+//       if(i > max){
+//         max= i;
+//       }  
+//     }
+// }
+// console.log(max)
+var array=[];
+var nums = [[1,2,3],[5,6,7],[9,10,11]]
+for(var i=0; i<nums.length; i++){
+    for(var j=0; j<nums[i].length; j++){
+        if(i === j){
+            array.push(nums[i][j])
+        }
+        if(i+j == nums.length-1){
+            array.push(nums[i][j])
+        }
+    }
+}
+// console.log(array);
+var num= 12;
+var temp= false;
+for(var k=2; k<num; k++){
+
+    if(k%num !==0){
+        temp = true;
+    }
+    else{
+        temp= false
+    }
+}
+console.log(temp);
